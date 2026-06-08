@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    
+    border: 1px  solid black;
+}
+
+.container{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+.header{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo1{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 23px;
+    
+}
+.menu{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+}
+.menu>li{
+    background-color: blue;
+    color: salmon;
+    width: 200px;
+    height: 25px;
+}
+.sub-menu{
+    display: none;  
+    position: relative;
+    z-index: 10;
+    
+}
+.sub-menu li:hover{
+    background-color: chartreuse;
+    color: saddlebrown;
+}
+.sub-menu li{
+    background-color: blue;
+    color: salmon;
+}
+.slide{
+    width: 1200px;
+    height: 300px;
+    
+    overflow: hidden;
+}
+.slide li{
+    animation: sd 6s infinite;
+}
+@keyframes sd {
+    0%{transform: translateY(-0px);}
+    33%{transform: translateY(-300px);}
+    66%{transform: translateY(-600px);}
+    100%{transform: translateY(-0px);}
+}
+.contents{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+}
+.f-menu{
+    width: 400px;
+    height: 200px;
+    
+}
+.notice li{
+    margin-top: 10px;
+    align-items: center;
+}
+.gallry{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.banner{
+    width: 400px;
+    height: 200px;
+}
+.shortcut{
+    width: 400px;
+    height: 200px;
+}
+.footer{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo2{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 23px;
+    
+}
+.copy{
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+.sns{
+    width: 200px;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.sns img{
+    width: 40px;
+    width: 40px;
+}
+.pop{
+    z-index: 10;
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    background-color: blanchedalmond;
+    color: black;
+    display: none;
+}
+.pop button{
+    width: 120px;
+    height: 40px;
+}
