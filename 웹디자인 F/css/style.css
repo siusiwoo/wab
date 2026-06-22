@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    color: white;
+    
+}
+.conteinar{
+    width: 100%;
+    height: 970px;
+}
+.header{
+    width: 1340px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    background-color: slategray;
+}
+.logo1{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: firebrick;
+}
+.menu{
+    width: 1140px;
+    height: 100px;
+    left: 540px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    padding-top: 73px;
+    
+    
+}
+.menu li{
+    width: 150px;
+    height: 25px;
+    background-color: skyblue;
+}
+.menu li:hover{
+    background-color: wheat;
+}
+.sub-menu{
+    display: none;
+    background-color: darkcyan;
+    position: absolute;
+    z-index: 10;
+}
+.slide{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+.slide img{
+    width: 100%;
+    height: 350px;
+}
+.banner{
+    width: 1340px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 335px;
+    left: 278px;
+}
+.banner img{
+    width: 120px;
+    height: 120px;
+}
+.shortcut{
+    width: 1340px;
+    height: 150px;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background-color: sienna;
+}
+.baro1{
+    width: 200px;
+}
+.baro2{
+    height: 100px;
+}
+.contents{
+    width: 1340px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: saddlebrown;
+}
+.notice{
+    width: 1340px;
+    height: 250px;
+    text-align: center;
+    padding-top: 10px;
+}
+.notice li{
+    font-size: .95rem;
+    padding: .125rem 0;
+}
+.notice-btn{
+    width: 120px;
+    height: 40px;
+    background-color: sienna;
+}
+.gallery{
+    width: 1340px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.gallery-btn{
+    width: 120px;
+    height: 40px;
+    background-color: sienna;
+}
+.gallery img{
+    width: 200px;
+    height: 200px;
+}
+.footer{
+    width: 1340px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo2{
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: firebrick;
+}
+.f-menu{
+    width: calc(100% - 200px);
+    height: 120px;
+    text-align: center;
+
+}
+.top{
+    padding-top: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: indianred;
+}
+.bottom{
+    padding-top: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: salmon;
+}
+.pop{
+    position: absolute;
+    left: 250px;
+    top: 300px;
+    background-color: darkgoldenrod;
+    text-align: center;
+    display: none;
+}
+.pop button{
+    width: 120px;
+    height: 50px;
+    background-color: seagreen;
+}
